@@ -1,0 +1,24 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://aayanbothra.com/sitemap.xml
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+# Block these bots
+User-agent: AdsBot-Google
+Disallow: /admin/
+
+User-agent: Baiduspider
+Disallow: /admin/
